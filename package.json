@@ -10,8 +10,7 @@
     "knex:rollback-all": "knex --knexfile ./src/server/database/knex/Enviroment.ts migrate:rollback-all",
     "knex:rollback": "knex --knexfile ./src/server/database/knex/Enviroment.ts migrate:rollback",
     "knex:seed": "knex --knexfile ./src/server/database/knex/Enviroment.ts seed:run",
-    "test": "jest",
-    "yarn-production": "yarn production"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
