@@ -10,8 +10,7 @@
     "knex:rollback-all": "knex --knexfile ./src/server/database/knex/Enviroment.ts migrate:rollback-all",
     "knex:rollback": "knex --knexfile ./src/server/database/knex/Enviroment.ts migrate:rollback",
     "knex:seed": "knex --knexfile ./src/server/database/knex/Enviroment.ts seed:run",
-    "test": "jest",
-    "deploy": "npm run production"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -46,6 +45,6 @@
     "typescript-eslint": "^7.13.0"
   },
   "engines": {
-    "node": "20.x"
+    "node": "16.x"
   }
 }
