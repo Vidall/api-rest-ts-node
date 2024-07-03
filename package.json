@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "yarn ts-node-dev ./src/index.ts",
-    "deploy": "node ./build/index.js",
+    "production": "node ./build/index.js",
     "postinstall": "tsc",
     "knex:migrate": "knex --knexfile ./src/server/database/knex/Enviroment.ts migrate:latest",
     "knex:rollback-all": "knex --knexfile ./src/server/database/knex/Enviroment.ts migrate:rollback-all",
