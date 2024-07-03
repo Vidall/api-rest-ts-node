@@ -1,1 +1,1 @@
-web: npm production
+web: yarn production
